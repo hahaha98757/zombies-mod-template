@@ -1,4 +1,4 @@
-# Essential Loom based template with Zombies Tools v1.0.0 for Zombies mod
+# Essential Loom based kotlin template with Zombies Tools v1.0.0 for Zombies mod
 
 Language: [English (US)](README.md), [한국어 (대한민국)](README-ko_KR.md)
 
@@ -12,6 +12,9 @@ To get started, [Use this template](https://github.com/new?template_name=Forge1.
 
 > [!WARNING]
 > Do not Fork, Clone, or Download ZIP this template. If you "use" this template a custom mod id will be generated. You can do that manually using the `make-my-own` script, if you are on linux. If not, just click the use this template button. If you want to use kotlin check the "Include all branches" and change the default branch in https://github.com/yourname/yourreponame/settings
+
+Please note that Mixins should be kept in their own package, and should exclusively be written in Java, since older versions
+of Mixin don't play well with Kotlin.
 
 This project uses [DevAuth](https://github.com/DJtheRedstoner/DevAuth) per default, so you can log in using your real
 minecraft account. If you don't need that, you can remove it from the buildscript.
@@ -51,6 +54,7 @@ If some libraries are not used, remove that part in Credits.
 - [DevAuth](https://github.com/DJtheRedstoner/DevAuth) by DJtheRedstoner ([MIT License](https://github.com/DJtheRedstoner/DevAuth/blob/master/LICENSE))
 - [Essential Loom](https://github.com/EssentialGG/architectury-loom) by EssentialGG ([MIT License](https://github.com/EssentialGG/architectury-loom/blob/dev/1.6/LICENSE))
 - [Forge1.8.9Template](https://github.com/nea89o/Forge1.8.9Template) by nea89o ([The Unlicense](https://github.com/nea89o/Forge1.8.9Template/blob/master/LICENSE))
+- [Kotlin](https://github.com/JetBrains/kotlin) by JetBrains ([Apache License 2.0](https://github.com/JetBrains/kotlin/blob/master/license/LICENSE.txt))
 - [Mixin](https://github.com/SpongePowered/Mixin) by SpongePowered ([MIT License](https://github.com/SpongePowered/Mixin/blob/master/LICENSE.txt))
 - [Zombies Mod Template](https://github.com/hahaha98757/zombies-mod-template) by hahaha98757 ([MIT License](https://github.com/hahaha98757/zombies-mod-template/blob/master/LICENSE))
 - [Zombies Tools](https://github.com/hahaha98757/zombies-tools) by hahaha98757 ([MIT License](https://github.com/hahaha98757/zombies-tools/blob/master/LICENSE))
