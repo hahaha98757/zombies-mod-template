@@ -49,7 +49,7 @@ access transformers(메서드를 공개/비최종으로 만들 수 있음)를 �
 - DJtheRedstoner의 [DevAuth](https://github.com/DJtheRedstoner/DevAuth) ([MIT 허가서](https://github.com/DJtheRedstoner/DevAuth/blob/master/LICENSE))
 - EssentialGG의 [Essential Loom](https://github.com/EssentialGG/architectury-loom) ([MIT 허가서](https://github.com/EssentialGG/architectury-loom/blob/dev/1.6/LICENSE))
 - nea89o의 [Forge1.8.9Template](https://github.com/nea89o/Forge1.8.9Template) ([The Unlicense](https://github.com/nea89o/Forge1.8.9Template/blob/master/LICENSE))
-- JetBrains의 [Kotlin](https://github.com/JetBrains/kotlin) ([Apache License 2.0](https://github.com/JetBrains/kotlin/blob/master/license/LICENSE.txt))
+- JetBrains의 [Kotlin](https://github.com/JetBrains/kotlin) ([아파치 라이선스 2.0](https://github.com/JetBrains/kotlin/blob/master/license/LICENSE.txt))
 - SpongePowered의 [Mixin](https://github.com/SpongePowered/Mixin) ([MIT 허가서](https://github.com/SpongePowered/Mixin/blob/master/LICENSE.txt))
 - hahaha98757의 [Zombies Mod Template](https://github.com/hahaha98757/zombies-mod-template) ([MIT 허가서](https://github.com/hahaha98757/zombies-mod-template/blob/master/LICENSE))
 - hahaha98757의 [Zombies Tools](https://github.com/hahaha98757/zombies-tools) ([MIT 허가서](https://github.com/hahaha98757/zombies-tools/blob/master/LICENSE))
