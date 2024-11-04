@@ -1,4 +1,6 @@
-# Architectury Loom based template for 1.8.9 forge mods
+# Essential Loom based template with Zombies Tools v1.0.0 for Zombies mod
+
+Language: [English (US)](README.md), [한국어 (대한민국)](README-ko_KR.md)
 
 **For other templates, do check out the [other branches of this repository](https://github.com/romangraef/Forge1.8.9Template/branches/all)**
 
@@ -6,12 +8,10 @@
 
 Check out https://moddev.nea.moe/ for a full tutorial on legacy modding.
 
-Alternatively, read here for a basic overview on how to use this repository.
-
 To get started, [Use this template](https://github.com/new?template_name=Forge1.8.9Template&template_owner=nea89o).
 
 > [!WARNING]
-> Do not Fork or Clone or Download ZIP this template. If you "use" this template a custom mod id will be generated. You can do that manually using the `make-my-own` script, if you are on linux. If not, just click the use this template button. If you want to use kotlin or make a 1.12 mod check the "Include all branches" and change the default branch in https://github.com/yourname/yourreponame/branches
+> Do not Fork, Clone, or Download ZIP this template. If you "use" this template a custom mod id will be generated. You can do that manually using the `make-my-own` script, if you are on linux. If not, just click the use this template button. If you want to use kotlin check the "Include all branches" and change the default branch in https://github.com/yourname/yourreponame/settings
 
 This project uses [DevAuth](https://github.com/DJtheRedstoner/DevAuth) per default, so you can log in using your real
 minecraft account. If you don't need that, you can remove it from the buildscript.
@@ -38,6 +38,19 @@ project using `./gradlew build --refresh-dependencies`.
 
 [![Youtube Tutorial](https://i.ytimg.com/vi/nWzHlomdCgc/maxresdefault.jpg)](https://www.youtube.com/watch?v=nWzHlomdCgc)
 
-## Licensing
+## License
+This project is licensed under the MIT License as specified in the [LICENSE](LICENSE) file.<br>
+It allows for personal use, modification, distribution, and commercial use under the license and copyright notice, and it comes with no warranty or liability.
 
-This template is licensed under the Unlicense (license copy present in this repository), or alternatively under [Creative Commons 1.0 Universal (CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/), and all contributions and PR to this template are expected to follow this. This means your mod, based on this template can be licensed whatever way you want, and does not need to reference back to this template in any way.
+# Do not remove the contents below.
+You must include the following content in an important part of your project (e.g. README.md) in any form. However, you may remove the "Forge1.8.9Template" part if desired.<br>
+If some libraries are not used, remove that part in Credits.
+
+## Credits
+- [Architectury Pack200](https://github.com/architectury/architectury-pack200) by architectury ([GNU General Public License v2.0 with Classpath Exception](https://github.com/architectury/architectury-pack200/blob/master/LICENSE))
+- [DevAuth](https://github.com/DJtheRedstoner/DevAuth) by DJtheRedstoner ([MIT License](https://github.com/DJtheRedstoner/DevAuth/blob/master/LICENSE))
+- [Essential Loom](https://github.com/EssentialGG/architectury-loom) by EssentialGG ([MIT License](https://github.com/EssentialGG/architectury-loom/blob/dev/1.6/LICENSE))
+- [Forge1.8.9Template](https://github.com/nea89o/Forge1.8.9Template) by nea89o ([The Unlicense](https://github.com/nea89o/Forge1.8.9Template/blob/master/LICENSE))
+- [Mixin](https://github.com/SpongePowered/Mixin) by SpongePowered ([MIT License](https://github.com/SpongePowered/Mixin/blob/master/LICENSE.txt))
+- [Zombies Mod Template](https://github.com/hahaha98757/zombies-mod-template) by hahaha98757 ([MIT License](https://github.com/hahaha98757/zombies-mod-template/blob/master/LICENSE))
+- [Zombies Tools](https://github.com/hahaha98757/zombies-tools) by hahaha98757 ([MIT License](https://github.com/hahaha98757/zombies-tools/blob/master/LICENSE))

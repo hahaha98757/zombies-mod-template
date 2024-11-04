@@ -16,6 +16,7 @@ val version: String by project
 val mixinGroup = "$baseGroup.mixin"
 val modid: String by project
 val transformerFile = file("src/main/resources/accesstransformer.cfg")
+val archiveName = modid
 
 // Toolchains:
 java {
@@ -63,6 +64,9 @@ sourceSets.main {
 // Dependencies:
 
 repositories {
+    flatDir {
+        dirs("libs")
+    }
     mavenCentral()
     maven("https://repo.spongepowered.org/maven/")
     // If you don't want to log in with your real minecraft account, remove this line
@@ -77,6 +81,7 @@ dependencies {
     minecraft("com.mojang:minecraft:1.8.9")
     mappings("de.oceanlabs.mcp:mcp_stable:22-1.8.9")
     forge("net.minecraftforge:forge:1.8.9-11.15.1.2318-1.8.9")
+    shadowImpl(files("libs/ZombiesTools-1.0.0.jar"))
 
     // If you don't want mixins, remove these lines
     shadowImpl("org.spongepowered:mixin:0.7.11-SNAPSHOT") {
@@ -96,7 +101,7 @@ tasks.withType(JavaCompile::class) {
 }
 
 tasks.withType(org.gradle.jvm.tasks.Jar::class) {
-    archiveBaseName.set(modid)
+    archiveBaseName.set(archiveName)
     manifest.attributes.run {
         this["FMLCorePluginContainsFMLMod"] = "true"
         this["ForceLoadAsMod"] = "true"
@@ -120,6 +125,10 @@ tasks.processResources {
     }
 
     rename("accesstransformer.cfg", "META-INF/${modid}_at.cfg")
+
+    from("LICENSE") {
+        rename { "LICENSE.txt" }
+    }
 }
 
 
